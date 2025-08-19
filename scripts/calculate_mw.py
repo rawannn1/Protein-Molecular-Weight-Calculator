@@ -25,4 +25,4 @@ with open("results/protein_results.txt", "w") as f:
     for aa, count in aa_count.items():
         f.write(f"{aa}: {count}\n")
 
-print("Protein analysis complete!")
+print("Protein analysis completed, See results/protein_results.txt")
